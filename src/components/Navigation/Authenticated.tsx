@@ -40,11 +40,11 @@ const Authenticated: FC<Props> = ({ session }) => {
       {/* Left */}
       <div className="z-50 flex flex-row h-full items-center">
         <>
-          <div className="relative aspect-square h-1/2 w-auto mr-3">
+          <div className="relative aspect-square h-[40%] w-auto mr-3">
             <Logo />
           </div>
           <Link href="/">
-            <h1 className="font-Basic text-xl text-primary tracking-tighter cursor-pointer">
+            <h1 className="font-Basic text-primary tracking-tighter cursor-pointer">
               {BRAND_NAME}
             </h1>
           </Link>

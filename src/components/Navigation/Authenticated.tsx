@@ -44,7 +44,7 @@ const Authenticated: FC<Props> = ({ session }) => {
             <Logo />
           </div>
           <Link href="/">
-            <h1 className="font-Basic text-primary tracking-tighter cursor-pointer">
+            <h1 className="font-Basic text-xl text-primary tracking-tighter cursor-pointer">
               {BRAND_NAME}
             </h1>
           </Link>
